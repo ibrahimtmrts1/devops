@@ -12,4 +12,4 @@ def sum()->'html':
     y=int(request.form['secondValue'])
     return render_template('result.html',page_title='Calculation result',sum_result=(x+y),first_value=x,second_value=y,)
  
-app.run(debug=True)
+app.run(debug=False)
