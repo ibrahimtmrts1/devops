@@ -1,3 +1,4 @@
+import html
 from flask import Flask, render_template,request
 app=Flask(__name__)
  
@@ -11,5 +12,5 @@ def sum()->'html':
     x=int(request.form['firstValue'])
     y=int(request.form['secondValue'])
     return render_template('result.html',page_title='Calculation result',sum_result=(x+y),first_value=x,second_value=y,)
- 
+
 app.run(debug=False)
