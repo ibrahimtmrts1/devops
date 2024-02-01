@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: devops
-        image: ibrahimtmrts1/devops:v3
+        image: ibrahimtmrts1/devops:v3.1
         ports:
         - containerPort: 5000
