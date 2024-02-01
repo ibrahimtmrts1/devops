@@ -4,7 +4,7 @@ metadata:
   name: devops
   namespace: default
   labels:
-    app: nodejs
+    app: devops
 spec:
   replicas: 1
   selector:
@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: devops
-        image: ibrahimtmrts1/devops:v3.1
+        image: ibrahimtmrts1/devops:v3.2
         ports:
         - containerPort: 5000
